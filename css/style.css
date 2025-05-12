@@ -1,10 +1,20 @@
 /********** Template CSS **********/
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Manrope', sans-serif !important;
+}
+
 :root {
     --primary: #0C0C22;
     --secondary: #0C0C22;
     --light: #EBDBCB;
     --dark: #091E3E;
 
+}
+
+.gradient-heading {
+  background: linear-gradient(to right,  #AB2434, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .btn-primary {
@@ -75,6 +85,7 @@ h1,
 h2,
 .fw-bold {
     font-weight: 800 !important;
+    
 }
 
 h3,
@@ -92,7 +103,7 @@ h6,
 
 /*** Button ***/
 .btn {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 600;
     transition: .5s;
 }
@@ -138,7 +149,7 @@ h6,
 
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Manrope', sans-serif;
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
@@ -183,7 +194,7 @@ h6,
 
     .navbar {
         background-color: #091E3E !important;
-        height: 100px;
+        min-height: 100px;
     }
 
     .sticky-top.navbar-dark {
@@ -208,7 +219,7 @@ h6,
 
 @media (min-width: 992px) {
     .slide-img{
-        height: 900px;
+        height: 850px;
     }
 
     .navbar-dark {
@@ -261,7 +272,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgb(0 0 0 / 70%);
+    background: rgb(0 0 0 / 25%);
     z-index: 1;
 }
 
@@ -297,7 +308,7 @@ h6,
     height: 5px;
     left: 0;
     bottom: 0;
-    background: var(--primary);
+    background: linear-gradient(to right,  #AB2434, #333);
     border-radius: 2px;
 }
 
