@@ -155,7 +155,6 @@ h6,
     padding: 35px 0;
     color: #fff;
     font-size: 18px;
-    font-weight: 600;
     outline: none;
     transition: .5s;
 }
@@ -523,7 +522,7 @@ h6,
     left: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background: var(--primary);
+    background: linear-gradient(to right,  #AB2434, #333);
     transition: 0.5s;
     z-index: 1;
 }
